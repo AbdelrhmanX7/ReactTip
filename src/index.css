@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Space Mono', monospace;
+  font-weight: 700;
+}
+body {
+  width: 100vw; height: 100vh;
+  background-color: hsl(185, 41%, 84%);
+  margin: 0;
+  display: flex;
+  justify-content: center; align-items: center;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 6rem;
+}

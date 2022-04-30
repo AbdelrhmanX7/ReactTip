@@ -1,0 +1,184 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw; height: 100vh;
+}
+input {
+    text-align: right;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.continer {
+    width: 850px;
+    height: 55%;
+    border-radius: 25px;
+    background-color: white;
+    box-shadow: 0px 11px 40px 0px hsl(172deg 67% 45% / 39%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 24px;
+}
+.userInput {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 350.875px;
+    height: 100%;
+}
+.userInput p {
+    color: hsl(186, 14%, 43%);
+}
+.billContiner {
+    position: relative;
+    background-color: #f3f8fb;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+}
+.billContiner img {
+    position: absolute;
+    left: 15px;
+}
+.billContiner input {
+    outline: none;
+    width: 100%;
+    height: 100%;
+    padding: 12px;
+    background-color: #f3f8fb;
+    border: none;
+    text-align: right;
+    border-radius: 7px;
+    font-size: 20px;
+    color: hsl(183, 100%, 15%);
+}
+.billContiner input:focus {
+    border: 2px solid hsl(172, 67%, 45%);
+}
+.TipBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 360px;
+}
+.TipBtn button {
+    cursor: pointer;
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: hsl(183, 100%, 15%);
+    outline: none;
+    border: none;
+    color: white;
+}
+.TipBtn button:hover {
+    background-color: hsl(185, 41%, 84%);
+    color: hsl(183, 100%, 15%);
+}
+.TipBtn button:active {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+}
+.TipBtn input {
+    cursor: pointer;
+    width: 100px; height: 49px;
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+    color: hsl(183, 100%, 15%);
+}
+.TipBtn input:focus {
+    border: 2px solid hsl(172, 67%, 45%);
+}
+.TipBtn input::placeholder {
+    text-align: center;
+    color: hsl(186, 14%, 43%);
+    font-size: 22px;
+}
+
+.active button{
+    background-color: hsl(172, 67%, 45%) !important; 
+    color: hsl(183, 100%, 15%) !important;
+}
+.Alert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Alert p:nth-of-type(2) {
+    color: red;
+}
+.userResult {
+    position: relative;
+    height: 100%;
+    width: 403.188px;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    border-radius: 20px;
+}
+.BillResult{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.BillText {
+    width: 98px;
+}
+.BillResult p {
+    margin: 0px;
+    color: hsl(184, 14%, 56%);
+    font-size: 14px;
+}
+.BillResult h4 {
+    margin: 0px;
+}
+.BillResult h1 {
+    font-size: 46px;
+    color: hsl(172, 67%, 45%);
+}
+
+.Reset {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Reset button {
+    position: absolute;
+    bottom: 35px;
+    cursor: pointer;
+    width: 80%;
+    height: 50px;
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.Reset button:hover,
+.Reset button:active {
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(185, 41%, 84%);
+}
