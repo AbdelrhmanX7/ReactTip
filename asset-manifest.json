@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ReactTip/static/css/main.5e5071ce.css",
+    "main.js": "/ReactTip/static/js/main.a9e51c61.js",
+    "static/media/logo.svg": "/ReactTip/static/media/logo.3cc0528bd46321d63d85702006069614.svg",
+    "static/media/icon-dollar.svg": "/ReactTip/static/media/icon-dollar.9f9be3534a9295a6595764d63a7bf3a3.svg",
+    "static/media/icon-person.svg": "/ReactTip/static/media/icon-person.65bfd20465dd1d2cb58c0b53e1160442.svg",
+    "index.html": "/ReactTip/index.html",
+    "main.5e5071ce.css.map": "/ReactTip/static/css/main.5e5071ce.css.map",
+    "main.a9e51c61.js.map": "/ReactTip/static/js/main.a9e51c61.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e5071ce.css",
+    "static/js/main.a9e51c61.js"
+  ]
+}
